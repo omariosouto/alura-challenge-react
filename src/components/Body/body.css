@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+    background-image: url('/images/body-shape.svg'),
+                      url('/images/bg.jpg');
+    background-repeat: no-repeat, 
+                      repeat-x;
+    background-position: center,
+                         left;
+}
