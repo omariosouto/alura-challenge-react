@@ -9,15 +9,19 @@ export default function Menu() {
             <nav>
                 <li>
                     <a href="/">Como fazer</a>
+                    /
                 </li>
                 <li>
                     <a href="/">Ofertas</a>
+                    /
                 </li>
                 <li>
                     <a href="/">Depoimentos</a>
+                    /
                 </li>
                 <li>
                     <a href="/">Vídeos</a>
+                    /
                 </li>
                 <li>
                     <a href="/">Meu Carrinho</a>

@@ -1,0 +1,71 @@
+.assinaturaNewsletter {
+  background-color: #ffe29a;
+  padding: 16px;
+  margin-top: 16px;
+  position: relative;
+}
+@media (min-width: 920px) {
+  .assinaturaNewsletter {
+    background-color: transparent;
+    margin-top: 155px;
+  }
+  .assinaturaNewsletter:after {
+      content: "";
+      display: block;
+      width: 787px;
+      height: 975px;
+      background-image: url('/images/hero-image.png');
+      position: absolute;
+      --baseDistance: -287px;
+      top: calc(var(--baseDistance) + 50px);
+      right: 0;
+      z-index: -1;
+      pointer-events: none;
+  }
+}
+
+
+.assinaturaNewsletter__container {
+  max-width: 585px;
+}
+
+.assinaturaNewsletter__container__text {
+  max-width: 481px;
+  margin-bottom: 32px;
+}
+
+.assinaturaNewsletter h1 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.assinaturaNewsletter h1 strong {
+  font-family: Elsie Swash Caps;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (min-width: 920px) {
+  .assinaturaNewsletter h1 strong {
+    font-size: 82px;
+  }
+}
+
+.assinaturaNewsletter p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 16px;
+}
