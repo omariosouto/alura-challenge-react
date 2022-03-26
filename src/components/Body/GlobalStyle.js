@@ -1,3 +1,10 @@
+import { createGlobalStyle } from 'styled-components';
+import { ResetCSS } from './ResetCSS';
+
+export const GlobalStyle = createGlobalStyle`
+
+${ResetCSS}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,3 +23,4 @@ main {
         background-position: right top;
     }
 }
+`;
