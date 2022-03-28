@@ -1,12 +1,12 @@
-import styles from './index.module.css';
+import { Header, NavMenu } from './styles';
 
 export default function Menu() {
     return (
-        <header className={styles.menu}>
+        <Header>
             <div>
                 <img src="/images/logo.svg" />
             </div>
-            <nav>
+            <NavMenu>
                 <li>
                     <a href="/">Como fazer</a>
                     /
@@ -26,7 +26,7 @@ export default function Menu() {
                 <li>
                     <a href="/">Meu Carrinho</a>
                 </li>
-            </nav>
-        </header>
+            </NavMenu>
+        </Header>
     );
 }
